@@ -1,0 +1,167 @@
+{ "results": [
+	{
+        "bcryptPassword": "$2a$10$NNUcCJNO4DucdTMOOYsAc.XOLtfbNQi5l0ZJP/QeI2RCYH25tcyze",
+        "createdAt": "2014-07-29T19:08:21.142Z",
+        "isAdmin": false,
+        "lecturer": null,
+        "objectId": "1ke3GNku76",
+        "sessionToken": "rcvrQ7TnIhHJSUUaKOYwTp3gx",
+        "student": {
+            "__type": "Pointer",
+            "className": "Student",
+            "objectId": "7b62FxIEEW"
+        },
+        "updatedAt": "2014-08-10T19:07:15.096Z",
+        "username": "wojtysiak.michal"
+    },
+	{
+        "bcryptPassword": "$2a$10$6jJtLoDqOBeWWzWC0BaPE.a0AH8ZJRorIW1Mz2g3WyaNn6Kx1EB4e",
+        "createdAt": "2014-07-29T19:08:21.738Z",
+        "isAdmin": false,
+        "lecturer": {
+            "__type": "Pointer",
+            "className": "Lecturer",
+            "objectId": "Y2pN5zyinN"
+        },
+        "objectId": "W6jbKAysIZ",
+        "sessionToken": "QSNQDfZxVOzEK90dE1kIHT8eV",
+        "student": null,
+        "updatedAt": "2014-08-10T19:10:11.938Z",
+        "username": "szulakiewicz.pawel"
+    },
+	{
+        "bcryptPassword": "$2a$10$v7/zjNV8n4OOBzYiDuGpw.2Y3NyhkK8JutiNfOGYRuyO7B9reo5.6",
+        "createdAt": "2014-07-29T19:08:22.237Z",
+        "isAdmin": false,
+        "lecturer": {
+            "__type": "Pointer",
+            "className": "Lecturer",
+            "objectId": "0t7iVUykJy"
+        },
+        "objectId": "4yO3K22BUV",
+        "sessionToken": "4I0EUZnpFy6nHY2N4etUHzyZy",
+        "student": null,
+        "updatedAt": "2014-08-10T19:09:12.771Z",
+        "username": "stasiak.maciej"
+    },
+	{
+        "bcryptPassword": "$2a$10$nZd37LK/dg7HqH6gIBOrKu1mBzwVamNW8yTteRQ1uCkIqdPzshd1K",
+        "createdAt": "2014-07-29T19:08:22.817Z",
+        "isAdmin": false,
+        "lecturer": {
+            "__type": "Pointer",
+            "className": "Lecturer",
+            "objectId": "l3iFQPj5Tr"
+        },
+        "objectId": "4dpnpOXVtx",
+        "sessionToken": "ByhNuVke82lYjNOVmihsP7bIr",
+        "student": null,
+        "updatedAt": "2014-08-10T19:09:01.248Z",
+        "username": "domanski.marek"
+    },
+	{
+        "bcryptPassword": "$2a$10$ClsUjjaMjLC7sSqRbi8tuubGOiVBguQhw4XVsmKJ7Lm55e48670Tq",
+        "createdAt": "2014-07-29T19:08:23.495Z",
+        "isAdmin": true,
+        "lecturer": null,
+        "objectId": "XeBz7bVtU0",
+        "sessionToken": "kVv5oerVgc90olfXX79yJ0rjZ",
+        "student": {
+            "__type": "Pointer",
+            "className": "Student",
+            "objectId": "Y1Az3KIQpY"
+        },
+        "updatedAt": "2014-08-10T19:08:04.841Z",
+        "username": "paciej"
+    },
+	{
+        "bcryptPassword": "$2a$10$VeDCTTxCDFKyZ3lBAfM5Iu9PJlpe2H/rS83fd3YDMPBUgM.9B4nvG",
+        "createdAt": "2014-07-29T19:08:23.971Z",
+        "isAdmin": false,
+        "lecturer": null,
+        "objectId": "UYjN9Fvlq5",
+        "sessionToken": "UgiaIy8NpjJdMgoly1JQgshUs",
+        "student": {
+            "__type": "Pointer",
+            "className": "Student",
+            "objectId": "53wP2seYiQ"
+        },
+        "updatedAt": "2014-08-10T19:06:03.950Z",
+        "username": "kachmar.sofiya"
+    },
+	{
+        "bcryptPassword": "$2a$10$Du3zVK9tEb8ywmYc6XNUfOu0fT.Ez7/.TzY20BL88JbmB2dhTlZvi",
+        "createdAt": "2014-07-29T19:08:24.485Z",
+        "isAdmin": false,
+        "lecturer": {
+            "__type": "Pointer",
+            "className": "Lecturer",
+            "objectId": "QjSnk2SCEa"
+        },
+        "objectId": "Z1zsdbWckT",
+        "sessionToken": "30lUGBPUaAfnqinjmz0aabIv2",
+        "student": null,
+        "updatedAt": "2014-08-10T19:10:24.806Z",
+        "username": "stasinski.ryszard"
+    },
+	{
+        "bcryptPassword": "$2a$10$DuD2izBLWEt0q9Wt5daDgeU4dAML89dsUjyYfF.1Oiee1Hj8.DYDS",
+        "createdAt": "2014-07-29T19:08:24.997Z",
+        "isAdmin": false,
+        "lecturer": {
+            "__type": "Pointer",
+            "className": "Lecturer",
+            "objectId": "XTogxh7oaA"
+        },
+        "objectId": "CLCIB2QTNm",
+        "sessionToken": "2ZBik0Dkh721021WfWif43344",
+        "student": null,
+        "updatedAt": "2014-08-10T19:05:58.342Z",
+        "username": "kliks.adrian"
+    },
+	{
+        "bcryptPassword": "$2a$10$sEUAacW4Ok4vIDKoYtPPBOC9mZEIKOn/DXd01jUcC6LBV7JLHoxvW",
+        "createdAt": "2014-07-29T19:12:18.020Z",
+        "isAdmin": true,
+        "lecturer": null,
+        "objectId": "MNtb3eqY7h",
+        "sessionToken": "Oh7kUqkciRjxq1X1pOr8Q5OJN",
+        "student": {
+            "__type": "Pointer",
+            "className": "Student",
+            "objectId": "ru8WJMD6Ap"
+        },
+        "updatedAt": "2014-08-10T19:06:00.406Z",
+        "username": "sofiko"
+    },
+	{
+        "bcryptPassword": "$2a$10$EpFUDEIx/fP33ELD/03a6eSNBpBU6VPSuQHTPuxaTm1fR7mdU.kiC",
+        "createdAt": "2014-07-29T19:16:13.103Z",
+        "isAdmin": false,
+        "lecturer": null,
+        "objectId": "ucwnLUuY6t",
+        "sessionToken": "wmJGEVvalsmrlYKskiIkdlkWY",
+        "student": {
+            "__type": "Pointer",
+            "className": "Student",
+            "objectId": "01fLxBwpmv"
+        },
+        "updatedAt": "2014-08-10T19:06:07.380Z",
+        "username": "michalox"
+    },
+	{
+        "bcryptPassword": "$2a$10$AdQuSaf1MnuUUblwj7nuqufVqKLTXOpCRKKDjf0GeERA5rBoym5.O",
+        "createdAt": "2014-07-26T15:44:58.479Z",
+        "isAdmin": true,
+        "lecturer": null,
+        "objectId": "8m0GQgx852",
+        "sessionToken": "iZHy1yuSzQNo3ALLbrUey1qRM",
+        "student": {
+            "__type": "Pointer",
+            "className": "Student",
+            "objectId": "oBNZ8l87a2"
+        },
+        "updatedAt": "2014-08-10T19:09:34.209Z",
+        "username": "admin"
+    }
+] }

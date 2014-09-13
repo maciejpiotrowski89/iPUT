@@ -1,0 +1,23 @@
+{ "results": [
+	{
+        "createdAt": "2014-08-02T15:48:14.377Z",
+        "db_description": "building uuid",
+        "objectId": "jShB7zpwRu",
+        "updatedAt": "2014-08-02T16:47:22.152Z",
+        "uuidString": "DF257517-138B-4FBA-8FA1-74D7191E52A8"
+    },
+	{
+        "createdAt": "2014-07-29T21:35:56.680Z",
+        "db_description": "person uuid",
+        "objectId": "0e43fu9f1M",
+        "updatedAt": "2014-08-02T16:47:22.380Z",
+        "uuidString": "601E7E88-BE6E-4F9C-AADD-438BB38B5C31"
+    },
+	{
+        "createdAt": "2014-07-29T21:34:22.177Z",
+        "db_description": "estimote uuid",
+        "objectId": "XIJ2k1QDG0",
+        "updatedAt": "2014-08-02T15:49:56.316Z",
+        "uuidString": "B9407F30-F5F8-466E-AFF9-25556B57FE6D"
+    }
+] }

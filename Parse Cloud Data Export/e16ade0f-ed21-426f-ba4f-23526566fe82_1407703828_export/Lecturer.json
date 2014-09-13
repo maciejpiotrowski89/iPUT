@@ -1,0 +1,56 @@
+{ "results": [
+	{
+        "createdAt": "2014-07-29T19:00:48.362Z",
+        "degree": "dr inż.",
+        "firstName": "Adrian",
+        "lastName": "Kliks",
+        "lecturerID": 5,
+        "objectId": "XTogxh7oaA",
+        "room": null,
+        "updatedAt": "2014-08-09T18:30:46.754Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:00:47.010Z",
+        "degree": "prof. dr hab. inż.",
+        "firstName": "Ryszard",
+        "lastName": "Stasiński",
+        "lecturerID": 3,
+        "objectId": "QjSnk2SCEa",
+        "room": null,
+        "updatedAt": "2014-08-10T20:44:10.168Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:00:44.723Z",
+        "degree": "prof. dr hab. inż.",
+        "firstName": "Marek",
+        "lastName": "Domański",
+        "lecturerID": 4,
+        "objectId": "l3iFQPj5Tr",
+        "room": null,
+        "updatedAt": "2014-08-10T20:43:51.464Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:00:49.734Z",
+        "degree": "prof. dr hab. inż.",
+        "firstName": "Maciej",
+        "lastName": "Stasiak",
+        "lecturerID": 2,
+        "objectId": "0t7iVUykJy",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "xfxjNZmkKV"
+        },
+        "updatedAt": "2014-08-09T19:13:35.451Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:00:45.743Z",
+        "degree": "dr hab. inż., prof. PP.",
+        "firstName": "Paweł",
+        "lastName": "Szulakiewicz",
+        "lecturerID": 1,
+        "objectId": "Y2pN5zyinN",
+        "room": null,
+        "updatedAt": "2014-08-09T19:13:35.746Z"
+    }
+] }

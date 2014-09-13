@@ -1,0 +1,42 @@
+{ "results": [
+	{
+        "createdAt": "2014-07-29T21:35:56.883Z",
+        "file": {
+            "__type": "File",
+            "name": "tfss-06da2508-4655-4513-a937-a74a63726504-BSc.pdf",
+            "url": "http://files.parsetfss.com/e16ade0f-ed21-426f-ba4f-23526566fe82/tfss-06da2508-4655-4513-a937-a74a63726504-BSc.pdf"
+        },
+        "objectId": "DNyxQTCwad",
+        "updatedAt": "2014-08-03T11:35:03.234Z"
+    },
+	{
+        "createdAt": "2014-07-29T21:35:58.271Z",
+        "file": {
+            "__type": "File",
+            "name": "tfss-21e2f7bf-e497-4f63-a469-42770cabba86-EiT2.pdf",
+            "url": "http://files.parsetfss.com/e16ade0f-ed21-426f-ba4f-23526566fe82/tfss-21e2f7bf-e497-4f63-a469-42770cabba86-EiT2.pdf"
+        },
+        "objectId": "P2F6ngye3p",
+        "updatedAt": "2014-08-03T11:34:08.784Z"
+    },
+	{
+        "createdAt": "2014-07-29T21:35:58.658Z",
+        "file": {
+            "__type": "File",
+            "name": "tfss-85f573cc-c6e4-41ca-8fc4-573a85f8b535-EiT1.pdf",
+            "url": "http://files.parsetfss.com/e16ade0f-ed21-426f-ba4f-23526566fe82/tfss-85f573cc-c6e4-41ca-8fc4-573a85f8b535-EiT1.pdf"
+        },
+        "objectId": "GtOc7cFlEv",
+        "updatedAt": "2014-08-03T11:33:43.422Z"
+    },
+	{
+        "createdAt": "2014-08-03T11:36:55.397Z",
+        "file": {
+            "__type": "File",
+            "name": "tfss-72e5ebc3-fbf1-44cb-90b7-92252385a7ae-MyJourneyToSF.pdf",
+            "url": "http://files.parsetfss.com/e16ade0f-ed21-426f-ba4f-23526566fe82/tfss-72e5ebc3-fbf1-44cb-90b7-92252385a7ae-MyJourneyToSF.pdf"
+        },
+        "objectId": "PfdDXmkkAY",
+        "updatedAt": "2014-08-03T11:36:55.397Z"
+    }
+] }

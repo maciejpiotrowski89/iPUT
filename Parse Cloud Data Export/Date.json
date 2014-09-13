@@ -1,0 +1,470 @@
+{ "results": [
+	{
+        "createdAt": "2014-07-29T19:01:19.365Z",
+        "dateEnd": {
+            "__type": "Date",
+            "iso": "2014-04-22T15:30:00.000Z"
+        },
+        "dateStart": {
+            "__type": "Date",
+            "iso": "2014-04-22T13:00:00.000Z"
+        },
+        "list": {
+            "__type": "Pointer",
+            "className": "ListOfPresence",
+            "objectId": "bJoD9TxKIv"
+        },
+        "objectId": "s1rZc0TN03",
+        "updatedAt": "2014-07-29T19:01:19.365Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:21.584Z",
+        "dateEnd": {
+            "__type": "Date",
+            "iso": "2014-04-21T10:30:00.000Z"
+        },
+        "dateStart": {
+            "__type": "Date",
+            "iso": "2014-04-21T06:00:00.000Z"
+        },
+        "list": {
+            "__type": "Pointer",
+            "className": "ListOfPresence",
+            "objectId": "kxKekmayyK"
+        },
+        "objectId": "LKTxw2LOet",
+        "updatedAt": "2014-07-29T19:01:21.584Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:22.829Z",
+        "dateEnd": {
+            "__type": "Date",
+            "iso": "2014-08-22T15:30:00.000Z"
+        },
+        "dateStart": {
+            "__type": "Date",
+            "iso": "2014-04-23T07:30:00.000Z"
+        },
+        "list": {
+            "__type": "Pointer",
+            "className": "ListOfPresence",
+            "objectId": "ZsvRz9OBTR"
+        },
+        "objectId": "8vGnUMWjAd",
+        "updatedAt": "2014-07-29T19:01:22.829Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:24.206Z",
+        "dateEnd": {
+            "__type": "Date",
+            "iso": "2014-09-25T11:30:00.000Z"
+        },
+        "dateStart": {
+            "__type": "Date",
+            "iso": "2014-09-25T09:00:00.000Z"
+        },
+        "list": {
+            "__type": "Pointer",
+            "className": "ListOfPresence",
+            "objectId": "CrSZHjZ3Ou"
+        },
+        "objectId": "toRt1zs9GT",
+        "updatedAt": "2014-07-29T19:01:24.206Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:25.439Z",
+        "dateEnd": {
+            "__type": "Date",
+            "iso": "2014-08-23T15:30:00.000Z"
+        },
+        "dateStart": {
+            "__type": "Date",
+            "iso": "2014-04-23T10:00:00.000Z"
+        },
+        "list": {
+            "__type": "Pointer",
+            "className": "ListOfPresence",
+            "objectId": "wK5EirIL8j"
+        },
+        "objectId": "eBT0ZFfn5w",
+        "updatedAt": "2014-07-29T19:01:25.439Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:26.858Z",
+        "dateEnd": {
+            "__type": "Date",
+            "iso": "2014-09-23T15:30:00.000Z"
+        },
+        "dateStart": {
+            "__type": "Date",
+            "iso": "2014-09-23T13:00:00.000Z"
+        },
+        "list": {
+            "__type": "Pointer",
+            "className": "ListOfPresence",
+            "objectId": "yAK7lneWYy"
+        },
+        "objectId": "QYUPZqay38",
+        "updatedAt": "2014-07-29T19:01:26.858Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:28.868Z",
+        "dateEnd": {
+            "__type": "Date",
+            "iso": "2014-08-23T15:30:00.000Z"
+        },
+        "dateStart": {
+            "__type": "Date",
+            "iso": "2014-04-23T10:00:00.000Z"
+        },
+        "list": {
+            "__type": "Pointer",
+            "className": "ListOfPresence",
+            "objectId": "a1bQrsd5e7"
+        },
+        "objectId": "u5lTkUS5BV",
+        "updatedAt": "2014-07-29T19:01:28.868Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:29.813Z",
+        "dateEnd": {
+            "__type": "Date",
+            "iso": "2014-04-21T10:30:00.000Z"
+        },
+        "dateStart": {
+            "__type": "Date",
+            "iso": "2014-04-21T06:00:00.000Z"
+        },
+        "list": {
+            "__type": "Pointer",
+            "className": "ListOfPresence",
+            "objectId": "qBCLwWwqS6"
+        },
+        "objectId": "FMufvFMBCM",
+        "updatedAt": "2014-07-29T19:01:29.813Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:30.960Z",
+        "dateEnd": {
+            "__type": "Date",
+            "iso": "2014-09-25T11:30:00.000Z"
+        },
+        "dateStart": {
+            "__type": "Date",
+            "iso": "2014-09-25T09:00:00.000Z"
+        },
+        "list": {
+            "__type": "Pointer",
+            "className": "ListOfPresence",
+            "objectId": "Q55x0q0RRX"
+        },
+        "objectId": "0zQRzzDur7",
+        "updatedAt": "2014-07-29T19:01:30.960Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:33.211Z",
+        "dateEnd": {
+            "__type": "Date",
+            "iso": "2014-09-23T15:30:00.000Z"
+        },
+        "dateStart": {
+            "__type": "Date",
+            "iso": "2014-09-23T13:00:00.000Z"
+        },
+        "list": {
+            "__type": "Pointer",
+            "className": "ListOfPresence",
+            "objectId": "Fipy2XF5IE"
+        },
+        "objectId": "JVdmqKWt5O",
+        "updatedAt": "2014-07-29T19:01:33.211Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:34.602Z",
+        "dateEnd": {
+            "__type": "Date",
+            "iso": "2014-04-22T15:30:00.000Z"
+        },
+        "dateStart": {
+            "__type": "Date",
+            "iso": "2014-04-22T13:00:00.000Z"
+        },
+        "list": {
+            "__type": "Pointer",
+            "className": "ListOfPresence",
+            "objectId": "EL1bQOe9Ti"
+        },
+        "objectId": "OY6wmN8u2t",
+        "updatedAt": "2014-07-29T19:01:34.602Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:35.753Z",
+        "dateEnd": {
+            "__type": "Date",
+            "iso": "2014-04-21T15:30:00.000Z"
+        },
+        "dateStart": {
+            "__type": "Date",
+            "iso": "2014-04-21T07:00:00.000Z"
+        },
+        "list": {
+            "__type": "Pointer",
+            "className": "ListOfPresence",
+            "objectId": "NBN51pOAYd"
+        },
+        "objectId": "8V6Z02W8li",
+        "updatedAt": "2014-07-29T19:01:35.753Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:37.989Z",
+        "dateEnd": {
+            "__type": "Date",
+            "iso": "2014-10-22T15:30:00.000Z"
+        },
+        "dateStart": {
+            "__type": "Date",
+            "iso": "2014-04-24T06:50:00.000Z"
+        },
+        "list": {
+            "__type": "Pointer",
+            "className": "ListOfPresence",
+            "objectId": "JZCYCB9Na0"
+        },
+        "objectId": "SVqLSPyWPk",
+        "updatedAt": "2014-07-29T19:01:37.989Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:39.881Z",
+        "dateEnd": {
+            "__type": "Date",
+            "iso": "2014-08-22T15:30:00.000Z"
+        },
+        "dateStart": {
+            "__type": "Date",
+            "iso": "2014-04-23T07:30:00.000Z"
+        },
+        "list": {
+            "__type": "Pointer",
+            "className": "ListOfPresence",
+            "objectId": "PZ6ZpvFmRw"
+        },
+        "objectId": "t3sAh9rgEO",
+        "updatedAt": "2014-07-29T19:01:39.881Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:42.418Z",
+        "dateEnd": {
+            "__type": "Date",
+            "iso": "2014-08-23T15:30:00.000Z"
+        },
+        "dateStart": {
+            "__type": "Date",
+            "iso": "2014-04-23T10:00:00.000Z"
+        },
+        "list": {
+            "__type": "Pointer",
+            "className": "ListOfPresence",
+            "objectId": "HA8QFxyBpx"
+        },
+        "objectId": "Bcuo7beAk8",
+        "updatedAt": "2014-07-29T19:01:42.418Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:43.558Z",
+        "dateEnd": {
+            "__type": "Date",
+            "iso": "2014-08-22T15:30:00.000Z"
+        },
+        "dateStart": {
+            "__type": "Date",
+            "iso": "2014-04-23T07:30:00.000Z"
+        },
+        "list": {
+            "__type": "Pointer",
+            "className": "ListOfPresence",
+            "objectId": "eWo47vxjVo"
+        },
+        "objectId": "SHWOYtHV7G",
+        "updatedAt": "2014-07-29T19:01:43.558Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:44.166Z",
+        "dateEnd": {
+            "__type": "Date",
+            "iso": "2014-04-22T15:30:00.000Z"
+        },
+        "dateStart": {
+            "__type": "Date",
+            "iso": "2014-04-22T13:00:00.000Z"
+        },
+        "list": {
+            "__type": "Pointer",
+            "className": "ListOfPresence",
+            "objectId": "qStk1LYiDx"
+        },
+        "objectId": "WSuyb17rNn",
+        "updatedAt": "2014-07-29T19:01:44.166Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:44.696Z",
+        "dateEnd": {
+            "__type": "Date",
+            "iso": "2014-04-21T10:30:00.000Z"
+        },
+        "dateStart": {
+            "__type": "Date",
+            "iso": "2014-04-21T06:00:00.000Z"
+        },
+        "list": {
+            "__type": "Pointer",
+            "className": "ListOfPresence",
+            "objectId": "tGIfvY3gjy"
+        },
+        "objectId": "utkNr6AyX3",
+        "updatedAt": "2014-07-29T19:01:44.696Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:45.739Z",
+        "dateEnd": {
+            "__type": "Date",
+            "iso": "2014-09-25T11:30:00.000Z"
+        },
+        "dateStart": {
+            "__type": "Date",
+            "iso": "2014-09-25T09:00:00.000Z"
+        },
+        "list": {
+            "__type": "Pointer",
+            "className": "ListOfPresence",
+            "objectId": "oxan1DnAnw"
+        },
+        "objectId": "M1RwqIMzEo",
+        "updatedAt": "2014-07-29T19:01:45.739Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:46.290Z",
+        "dateEnd": {
+            "__type": "Date",
+            "iso": "2014-09-23T15:30:00.000Z"
+        },
+        "dateStart": {
+            "__type": "Date",
+            "iso": "2014-09-23T13:00:00.000Z"
+        },
+        "list": {
+            "__type": "Pointer",
+            "className": "ListOfPresence",
+            "objectId": "GRr40yh3y1"
+        },
+        "objectId": "SvXF2jMnwZ",
+        "updatedAt": "2014-07-29T19:01:46.290Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:47.445Z",
+        "dateEnd": {
+            "__type": "Date",
+            "iso": "2014-04-22T15:30:00.000Z"
+        },
+        "dateStart": {
+            "__type": "Date",
+            "iso": "2014-04-22T13:00:00.000Z"
+        },
+        "list": {
+            "__type": "Pointer",
+            "className": "ListOfPresence",
+            "objectId": "eqpxUoVWHx"
+        },
+        "objectId": "J59YH9Vduk",
+        "updatedAt": "2014-07-29T19:01:47.445Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:48.833Z",
+        "dateEnd": {
+            "__type": "Date",
+            "iso": "2014-09-23T15:30:00.000Z"
+        },
+        "dateStart": {
+            "__type": "Date",
+            "iso": "2014-09-23T13:00:00.000Z"
+        },
+        "list": {
+            "__type": "Pointer",
+            "className": "ListOfPresence",
+            "objectId": "9NOsc9BwnG"
+        },
+        "objectId": "H5jkQkakad",
+        "updatedAt": "2014-07-29T19:01:48.833Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:49.991Z",
+        "dateEnd": {
+            "__type": "Date",
+            "iso": "2014-04-21T10:30:00.000Z"
+        },
+        "dateStart": {
+            "__type": "Date",
+            "iso": "2014-04-21T06:00:00.000Z"
+        },
+        "list": {
+            "__type": "Pointer",
+            "className": "ListOfPresence",
+            "objectId": "G7Q4MMpuIN"
+        },
+        "objectId": "ZOTyZhB5yP",
+        "updatedAt": "2014-07-29T19:01:49.991Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:51.438Z",
+        "dateEnd": {
+            "__type": "Date",
+            "iso": "2014-08-23T15:30:00.000Z"
+        },
+        "dateStart": {
+            "__type": "Date",
+            "iso": "2014-04-23T10:00:00.000Z"
+        },
+        "list": {
+            "__type": "Pointer",
+            "className": "ListOfPresence",
+            "objectId": "6W2cm6su2O"
+        },
+        "objectId": "ZGgLAAoQKZ",
+        "updatedAt": "2014-07-29T19:01:51.438Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:52.580Z",
+        "dateEnd": {
+            "__type": "Date",
+            "iso": "2014-08-22T15:30:00.000Z"
+        },
+        "dateStart": {
+            "__type": "Date",
+            "iso": "2014-04-23T07:30:00.000Z"
+        },
+        "list": {
+            "__type": "Pointer",
+            "className": "ListOfPresence",
+            "objectId": "7WbcKvzZfn"
+        },
+        "objectId": "oRykejbL0s",
+        "updatedAt": "2014-07-29T19:01:52.580Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:53.451Z",
+        "dateEnd": {
+            "__type": "Date",
+            "iso": "2014-09-25T11:30:00.000Z"
+        },
+        "dateStart": {
+            "__type": "Date",
+            "iso": "2014-09-25T09:00:00.000Z"
+        },
+        "list": {
+            "__type": "Pointer",
+            "className": "ListOfPresence",
+            "objectId": "siG18YLLvf"
+        },
+        "objectId": "mCqUyE1PMB",
+        "updatedAt": "2014-07-29T19:01:53.451Z"
+    }
+] }

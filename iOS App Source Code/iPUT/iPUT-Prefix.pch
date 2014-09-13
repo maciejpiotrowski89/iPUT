@@ -1,0 +1,24 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_7_0
+#warning "This project uses features only available in iOS SDK 7.0 and later."
+#endif
+
+#define MR_SHORTHAND 1
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <MagicalRecord/CoreData+MagicalRecord.h>
+    #import <Parse/Parse.h>
+    #import "MPModelEntities.h"
+    #import "MPConstants.h"
+    #import "MPUtils.h"
+    #import "macros.h"
+#endif

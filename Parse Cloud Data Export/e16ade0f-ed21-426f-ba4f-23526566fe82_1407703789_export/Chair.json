@@ -1,0 +1,46 @@
+{ "results": [
+	{
+        "createdAt": "2014-07-29T19:00:55.331Z",
+        "head": {
+            "__type": "Pointer",
+            "className": "Lecturer",
+            "objectId": "QjSnk2SCEa"
+        },
+        "name": "Chair of Communication and Computer Networks",
+        "objectId": "TsIPiuJS3v",
+        "updatedAt": "2014-08-10T20:44:10.374Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:00:57.037Z",
+        "head": {
+            "__type": "Pointer",
+            "className": "Lecturer",
+            "objectId": "0t7iVUykJy"
+        },
+        "name": "Chair of Telecommunication Systems and Optoelectronics",
+        "objectId": "1kG1heR0ox",
+        "updatedAt": "2014-08-09T19:09:03.196Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:00:58.157Z",
+        "head": {
+            "__type": "Pointer",
+            "className": "Lecturer",
+            "objectId": "l3iFQPj5Tr"
+        },
+        "name": "Chair of Multimedia Telecommunications and Microelectronics",
+        "objectId": "rC7sdYv9yz",
+        "updatedAt": "2014-08-10T20:43:51.670Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:09.254Z",
+        "head": {
+            "__type": "Pointer",
+            "className": "Lecturer",
+            "objectId": "Y2pN5zyinN"
+        },
+        "name": "Chair of Wireless Communications",
+        "objectId": "nSlLyoN25K",
+        "updatedAt": "2014-08-09T19:12:41.893Z"
+    }
+] }

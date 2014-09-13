@@ -1,0 +1,17 @@
+{ "results": [
+	{
+        "createdAt": "2014-07-29T19:01:55.068Z",
+        "levelOfStudies": "Master of Engineering",
+        "objectId": "kTpFCFqrET",
+        "semester": 4,
+        "updatedAt": "2014-07-29T19:01:55.068Z",
+        "yearEnd": {
+            "__type": "Date",
+            "iso": "2014-09-29T22:00:00.000Z"
+        },
+        "yearStart": {
+            "__type": "Date",
+            "iso": "2012-09-30T22:00:00.000Z"
+        }
+    }
+] }

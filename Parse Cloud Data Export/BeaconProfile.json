@@ -1,0 +1,272 @@
+{ "results": [
+	{
+        "createdAt": "2014-08-04T20:38:48.283Z",
+        "major": 512,
+        "minor": 23469,
+        "objectId": "sDjpk937Yd",
+        "proximityUUID": "601E7E88-BE6E-4F9C-AADD-438BB38B5C31",
+        "student": {
+            "__type": "Pointer",
+            "className": "Student",
+            "objectId": "oBNZ8l87a2"
+        },
+        "updatedAt": "2014-08-04T20:38:48.283Z"
+    },
+	{
+        "createdAt": "2014-08-05T13:49:48.972Z",
+        "major": 512,
+        "minor": 22465,
+        "objectId": "puqEcz3P4S",
+        "proximityUUID": "601E7E88-BE6E-4F9C-AADD-438BB38B5C31",
+        "student": {
+            "__type": "Pointer",
+            "className": "Student",
+            "objectId": "01fLxBwpmv"
+        },
+        "updatedAt": "2014-08-05T13:49:48.972Z"
+    },
+	{
+        "createdAt": "2014-08-05T13:50:11.250Z",
+        "major": 512,
+        "minor": 22466,
+        "objectId": "PXNdHmZRaf",
+        "proximityUUID": "601E7E88-BE6E-4F9C-AADD-438BB38B5C31",
+        "student": {
+            "__type": "Pointer",
+            "className": "Student",
+            "objectId": "ru8WJMD6Ap"
+        },
+        "updatedAt": "2014-08-05T13:50:11.250Z"
+    },
+	{
+        "createdAt": "2014-07-29T21:36:01.260Z",
+        "major": 512,
+        "minor": 23043,
+        "objectId": "VdzaxS3m8P",
+        "proximityUUID": "601E7E88-BE6E-4F9C-AADD-438BB38B5C31",
+        "student": {
+            "__type": "Pointer",
+            "className": "Student",
+            "objectId": "7b62FxIEEW"
+        },
+        "updatedAt": "2014-07-29T21:36:01.260Z"
+    },
+	{
+        "createdAt": "2014-07-29T21:36:02.320Z",
+        "major": 2,
+        "minor": 40,
+        "objectId": "D6BV0FSLa0",
+        "proximityUUID": "DF257517-138B-4FBA-8FA1-74D7191E52A8",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "cAH7ax1izb"
+        },
+        "updatedAt": "2014-07-29T21:36:02.320Z"
+    },
+	{
+        "createdAt": "2014-07-29T21:36:02.834Z",
+        "lecturer": {
+            "__type": "Pointer",
+            "className": "Lecturer",
+            "objectId": "XTogxh7oaA"
+        },
+        "major": 1024,
+        "minor": 5,
+        "objectId": "YXT5cDhPux",
+        "proximityUUID": "601E7E88-BE6E-4F9C-AADD-438BB38B5C31",
+        "updatedAt": "2014-07-29T21:36:02.834Z"
+    },
+	{
+        "createdAt": "2014-07-29T21:36:03.251Z",
+        "lecturer": {
+            "__type": "Pointer",
+            "className": "Lecturer",
+            "objectId": "Y2pN5zyinN"
+        },
+        "major": 1024,
+        "minor": 1,
+        "objectId": "xxQz2UgJ0K",
+        "proximityUUID": "601E7E88-BE6E-4F9C-AADD-438BB38B5C31",
+        "updatedAt": "2014-07-29T21:36:03.251Z"
+    },
+	{
+        "createdAt": "2014-07-29T21:36:03.759Z",
+        "lecturer": {
+            "__type": "Pointer",
+            "className": "Lecturer",
+            "objectId": "l3iFQPj5Tr"
+        },
+        "major": 1024,
+        "minor": 4,
+        "objectId": "XC672sn7WN",
+        "proximityUUID": "601E7E88-BE6E-4F9C-AADD-438BB38B5C31",
+        "updatedAt": "2014-07-29T21:36:03.759Z"
+    },
+	{
+        "createdAt": "2014-07-29T21:36:04.169Z",
+        "lecturer": {
+            "__type": "Pointer",
+            "className": "Lecturer",
+            "objectId": "QjSnk2SCEa"
+        },
+        "major": 1024,
+        "minor": 3,
+        "objectId": "m9cQwGFjJ9",
+        "proximityUUID": "601E7E88-BE6E-4F9C-AADD-438BB38B5C31",
+        "updatedAt": "2014-07-29T21:36:04.169Z"
+    },
+	{
+        "createdAt": "2014-07-29T21:36:04.953Z",
+        "major": 1,
+        "minor": 305,
+        "objectId": "ryi6IsDkU2",
+        "proximityUUID": "DF257517-138B-4FBA-8FA1-74D7191E52A8",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "A9d05CqoZw"
+        },
+        "updatedAt": "2014-07-29T21:36:04.953Z"
+    },
+	{
+        "createdAt": "2014-07-29T21:36:05.353Z",
+        "major": 512,
+        "minor": 23034,
+        "objectId": "WXnNnhdfFb",
+        "proximityUUID": "601E7E88-BE6E-4F9C-AADD-438BB38B5C31",
+        "student": {
+            "__type": "Pointer",
+            "className": "Student",
+            "objectId": "Y1Az3KIQpY"
+        },
+        "updatedAt": "2014-07-29T21:36:05.353Z"
+    },
+	{
+        "createdAt": "2014-07-29T21:36:05.876Z",
+        "lecturer": {
+            "__type": "Pointer",
+            "className": "Lecturer",
+            "objectId": "0t7iVUykJy"
+        },
+        "major": 1024,
+        "minor": 2,
+        "objectId": "OtzuPtuXfb",
+        "proximityUUID": "601E7E88-BE6E-4F9C-AADD-438BB38B5C31",
+        "updatedAt": "2014-07-29T21:36:05.876Z"
+    },
+	{
+        "createdAt": "2014-07-29T21:36:06.446Z",
+        "major": 512,
+        "minor": 23063,
+        "objectId": "JdnOH4EI0k",
+        "proximityUUID": "601E7E88-BE6E-4F9C-AADD-438BB38B5C31",
+        "student": {
+            "__type": "Pointer",
+            "className": "Student",
+            "objectId": "53wP2seYiQ"
+        },
+        "updatedAt": "2014-07-29T21:36:06.446Z"
+    },
+	{
+        "createdAt": "2014-07-29T21:36:08.002Z",
+        "major": 1,
+        "minor": 315,
+        "objectId": "auJVIANhNZ",
+        "proximityUUID": "DF257517-138B-4FBA-8FA1-74D7191E52A8",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "uj3nRwhmUQ"
+        },
+        "updatedAt": "2014-07-29T21:36:08.002Z"
+    },
+	{
+        "createdAt": "2014-07-29T21:36:08.383Z",
+        "major": 2,
+        "minor": 10,
+        "objectId": "8DdH3JGzO1",
+        "proximityUUID": "DF257517-138B-4FBA-8FA1-74D7191E52A8",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "xfxjNZmkKV"
+        },
+        "updatedAt": "2014-07-29T21:36:08.383Z"
+    },
+	{
+        "createdAt": "2014-08-09T20:59:46.995Z",
+        "lecturer": null,
+        "major": 1,
+        "minor": 4,
+        "objectId": "6kvnDC2ZrK",
+        "proximityUUID": "DF257517-138B-4FBA-8FA1-74D7191E52A8",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "AJ7DCzKXX2"
+        },
+        "student": null,
+        "updatedAt": "2014-08-09T20:59:46.995Z"
+    },
+	{
+        "createdAt": "2014-08-10T19:46:16.088Z",
+        "lecturer": null,
+        "major": 14,
+        "minor": 1,
+        "objectId": "fmSlBKIepB",
+        "proximityUUID": "DF257517-138B-4FBA-8FA1-74D7191E52A8",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "n0cm54MJm0"
+        },
+        "student": null,
+        "updatedAt": "2014-08-10T20:44:51.757Z"
+    },
+	{
+        "createdAt": "2014-08-10T19:46:32.341Z",
+        "lecturer": null,
+        "major": 14,
+        "minor": 2,
+        "objectId": "SSWDrerVA3",
+        "proximityUUID": "DF257517-138B-4FBA-8FA1-74D7191E52A8",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "pTcHQ94CIE"
+        },
+        "student": null,
+        "updatedAt": "2014-08-10T20:46:45.406Z"
+    },
+	{
+        "createdAt": "2014-08-10T19:47:37.103Z",
+        "lecturer": null,
+        "major": 14,
+        "minor": 101,
+        "objectId": "nxkJUXUHgN",
+        "proximityUUID": "DF257517-138B-4FBA-8FA1-74D7191E52A8",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "i95hz4WuT5"
+        },
+        "student": null,
+        "updatedAt": "2014-08-10T20:44:52.592Z"
+    },
+	{
+        "createdAt": "2014-08-10T19:48:05.154Z",
+        "lecturer": null,
+        "major": 14,
+        "minor": 102,
+        "objectId": "s6UQcbKacx",
+        "proximityUUID": "DF257517-138B-4FBA-8FA1-74D7191E52A8",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "1KxlPplY3H"
+        },
+        "student": null,
+        "updatedAt": "2014-08-10T20:44:53.025Z"
+    }
+] }

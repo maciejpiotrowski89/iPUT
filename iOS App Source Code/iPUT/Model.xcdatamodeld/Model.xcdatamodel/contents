@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13E28" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="BeaconProfile" representedClassName="BeaconProfile" syncable="YES">
+        <attribute name="db_deleted" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="db_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_modified" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="major" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="minor" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="proximityUUID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="lecturer" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Lecturer" inverseName="beacon" inverseEntity="Lecturer" syncable="YES"/>
+        <relationship name="room" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Room" inverseName="beacon" inverseEntity="Room" syncable="YES"/>
+        <relationship name="student" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Student" inverseName="beacon" inverseEntity="Student" syncable="YES"/>
+    </entity>
+    <entity name="BeaconUUID" representedClassName="BeaconUUID" syncable="YES">
+        <attribute name="db_deleted" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="db_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_modified" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="uuidString" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="building" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Building" inverseName="beaconUUID" inverseEntity="Building" syncable="YES"/>
+        <relationship name="user" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="User" inverseName="beaconUUID" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="Blob" representedClassName="Blob" syncable="YES">
+        <attribute name="db_deleted" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="db_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_modified" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="filePath" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="lecturer" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Lecturer" inverseName="photo" inverseEntity="Lecturer" syncable="YES"/>
+        <relationship name="resource" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="LibraryResource" inverseName="blob" inverseEntity="LibraryResource" syncable="YES"/>
+        <relationship name="student" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Student" inverseName="photo" inverseEntity="Student" syncable="YES"/>
+    </entity>
+    <entity name="Building" representedClassName="Building" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_deleted" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="db_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_modified" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="major" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="beaconUUID" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BeaconUUID" inverseName="building" inverseEntity="BeaconUUID" syncable="YES"/>
+        <relationship name="floors" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Floor" inverseName="building" inverseEntity="Floor" syncable="YES"/>
+    </entity>
+    <entity name="Chair" representedClassName="Chair" syncable="YES">
+        <attribute name="db_deleted" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="db_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_modified" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="faculty" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Faculty" inverseName="chairs" inverseEntity="Faculty" syncable="YES"/>
+        <relationship name="head" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Lecturer" inverseName="headOfChair" inverseEntity="Lecturer" syncable="YES"/>
+        <relationship name="lecturers" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Lecturer" inverseName="chair" inverseEntity="Lecturer" syncable="YES"/>
+        <relationship name="specialties" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Specialty" inverseName="chair" inverseEntity="Specialty" syncable="YES"/>
+    </entity>
+    <entity name="Date" representedClassName="Date" syncable="YES">
+        <attribute name="dateEnd" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="dateStart" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="db_deleted" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="db_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_modified" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="list" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="ListOfPresence" inverseName="date" inverseEntity="ListOfPresence" syncable="YES"/>
+        <relationship name="subject" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Subject" inverseName="dates" inverseEntity="Subject" syncable="YES"/>
+    </entity>
+    <entity name="Faculty" representedClassName="Faculty" syncable="YES">
+        <attribute name="db_deleted" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="db_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_modified" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="chairs" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Chair" inverseName="faculty" inverseEntity="Chair" syncable="YES"/>
+        <relationship name="fields" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Field" inverseName="faculty" inverseEntity="Field" syncable="YES"/>
+        <relationship name="university" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="University" inverseName="faculties" inverseEntity="University" syncable="YES"/>
+    </entity>
+    <entity name="Field" representedClassName="Field" syncable="YES">
+        <attribute name="db_deleted" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="db_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_modified" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="faculty" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Faculty" inverseName="fields" inverseEntity="Faculty" syncable="YES"/>
+        <relationship name="yearsOfStudies" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="YearOfStudies" inverseName="field" inverseEntity="YearOfStudies" syncable="YES"/>
+    </entity>
+    <entity name="Floor" representedClassName="Floor" syncable="YES">
+        <attribute name="db_deleted" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="db_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_modified" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="building" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Building" inverseName="floors" inverseEntity="Building" syncable="YES"/>
+        <relationship name="rooms" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Room" inverseName="floor" inverseEntity="Room" syncable="YES"/>
+    </entity>
+    <entity name="Group" representedClassName="Group" syncable="YES">
+        <attribute name="db_deleted" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="db_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_modified" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="students" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Student" inverseName="group" inverseEntity="Student" syncable="YES"/>
+        <relationship name="subjects" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Subject" inverseName="group" inverseEntity="Subject" syncable="YES"/>
+        <relationship name="yearOfStudies" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="YearOfStudies" inverseName="groups" inverseEntity="YearOfStudies" syncable="YES"/>
+    </entity>
+    <entity name="Lecturer" representedClassName="Lecturer" syncable="YES">
+        <attribute name="db_deleted" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="db_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_modified" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="degree" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lecturerID" optional="YES" attributeType="Integer 16" syncable="YES"/>
+        <relationship name="beacon" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BeaconProfile" inverseName="lecturer" inverseEntity="BeaconProfile" syncable="YES"/>
+        <relationship name="chair" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Chair" inverseName="lecturers" inverseEntity="Chair" syncable="YES"/>
+        <relationship name="headOfChair" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Chair" inverseName="head" inverseEntity="Chair" syncable="YES"/>
+        <relationship name="photo" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Blob" inverseName="lecturer" inverseEntity="Blob" syncable="YES"/>
+        <relationship name="room" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Room" inverseName="lecturer" inverseEntity="Room" syncable="YES"/>
+        <relationship name="subjects" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Subject" inverseName="lecturer" inverseEntity="Subject" syncable="YES"/>
+        <relationship name="subscribedLibraries" optional="YES" toMany="YES" maxCount="20" deletionRule="Nullify" destinationEntity="Library" inverseName="subscribedLecturers" inverseEntity="Library" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="lecturer" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="Library" representedClassName="Library" parentEntity="Room" syncable="YES">
+        <relationship name="resources" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="LibraryResource" inverseName="libraries" inverseEntity="LibraryResource" syncable="YES"/>
+        <relationship name="subscribedLecturers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Lecturer" inverseName="subscribedLibraries" inverseEntity="Lecturer" syncable="YES"/>
+        <relationship name="subscribedStudents" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Student" inverseName="subscribedLibraries" inverseEntity="Student" syncable="YES"/>
+    </entity>
+    <entity name="LibraryResource" representedClassName="LibraryResource" syncable="YES">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_deleted" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="db_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_modified" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="blob" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Blob" inverseName="resource" inverseEntity="Blob" syncable="YES"/>
+        <relationship name="libraries" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Library" inverseName="resources" inverseEntity="Library" syncable="YES"/>
+    </entity>
+    <entity name="ListOfPresence" representedClassName="ListOfPresence" syncable="YES">
+        <attribute name="db_deleted" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="db_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_modified" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="date" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Date" inverseName="list" inverseEntity="Date" syncable="YES"/>
+        <relationship name="presentStudents" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Student" inverseName="listsOfPresence" inverseEntity="Student" syncable="YES"/>
+    </entity>
+    <entity name="Room" representedClassName="Room" syncable="YES">
+        <attribute name="db_deleted" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="db_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_modified" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="beacon" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BeaconProfile" inverseName="room" inverseEntity="BeaconProfile" syncable="YES"/>
+        <relationship name="floor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Floor" inverseName="rooms" inverseEntity="Floor" syncable="YES"/>
+        <relationship name="lecturer" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Lecturer" inverseName="room" inverseEntity="Lecturer" syncable="YES"/>
+    </entity>
+    <entity name="Specialty" representedClassName="Specialty" syncable="YES">
+        <attribute name="db_deleted" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="db_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_modified" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="chair" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Chair" inverseName="specialties" inverseEntity="Chair" syncable="YES"/>
+        <relationship name="students" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Student" inverseName="specialtyOfStudies" inverseEntity="Student" syncable="YES"/>
+    </entity>
+    <entity name="Student" representedClassName="Student" syncable="YES">
+        <attribute name="db_deleted" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="db_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_modified" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="degree" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="studentID" optional="YES" attributeType="Integer 32" syncable="YES"/>
+        <relationship name="beacon" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BeaconProfile" inverseName="student" inverseEntity="BeaconProfile" syncable="YES"/>
+        <relationship name="group" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Group" inverseName="students" inverseEntity="Group" syncable="YES"/>
+        <relationship name="listsOfPresence" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ListOfPresence" inverseName="presentStudents" inverseEntity="ListOfPresence" syncable="YES"/>
+        <relationship name="photo" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Blob" inverseName="student" inverseEntity="Blob" syncable="YES"/>
+        <relationship name="specialtyOfStudies" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Specialty" inverseName="students" inverseEntity="Specialty" syncable="YES"/>
+        <relationship name="subscribedLibraries" optional="YES" toMany="YES" maxCount="20" deletionRule="Nullify" destinationEntity="Library" inverseName="subscribedStudents" inverseEntity="Library" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="student" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="Subject" representedClassName="Subject" syncable="YES">
+        <attribute name="db_deleted" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="db_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_modified" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="dates" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Date" inverseName="subject" inverseEntity="Date" syncable="YES"/>
+        <relationship name="group" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Group" inverseName="subjects" inverseEntity="Group" syncable="YES"/>
+        <relationship name="lecturer" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Lecturer" inverseName="subjects" inverseEntity="Lecturer" syncable="YES"/>
+    </entity>
+    <entity name="University" representedClassName="University" syncable="YES">
+        <attribute name="db_deleted" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="db_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_modified" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="faculties" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Faculty" inverseName="university" inverseEntity="Faculty" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="db_deleted" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="db_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_modified" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isAdmin" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" minValueString="1" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="beaconUUID" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BeaconUUID" inverseName="user" inverseEntity="BeaconUUID" syncable="YES"/>
+        <relationship name="lecturer" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Lecturer" inverseName="user" inverseEntity="Lecturer" syncable="YES"/>
+        <relationship name="student" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Student" inverseName="user" inverseEntity="Student" syncable="YES"/>
+    </entity>
+    <entity name="YearOfStudies" representedClassName="YearOfStudies" syncable="YES">
+        <attribute name="db_deleted" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="db_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="db_modified" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="levelOfStudies" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="semester" optional="YES" attributeType="Integer 16" minValueString="1" maxValueString="12" defaultValueString="1" syncable="YES"/>
+        <attribute name="yearEnd" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="yearStart" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="field" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Field" inverseName="yearsOfStudies" inverseEntity="Field" syncable="YES"/>
+        <relationship name="groups" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Group" inverseName="yearOfStudies" inverseEntity="Group" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BeaconProfile" positionX="-1082" positionY="77" width="128" height="193"/>
+        <element name="BeaconUUID" positionX="-1269" positionY="86" width="128" height="148"/>
+        <element name="Blob" positionX="-234" positionY="189" width="128" height="163"/>
+        <element name="Building" positionX="-711" positionY="-88" width="128" height="178"/>
+        <element name="Chair" positionX="-1071" positionY="-187" width="128" height="178"/>
+        <element name="Date" positionX="-324" positionY="-333" width="128" height="163"/>
+        <element name="Faculty" positionX="-1269" positionY="-414" width="128" height="163"/>
+        <element name="Field" positionX="-1073" positionY="-369" width="128" height="148"/>
+        <element name="Floor" positionX="-551" positionY="-4" width="128" height="148"/>
+        <element name="Group" positionX="-722" positionY="-342" width="128" height="163"/>
+        <element name="Lecturer" positionX="-1260" positionY="-225" width="128" height="283"/>
+        <element name="Library" positionX="-234" positionY="65" width="128" height="88"/>
+        <element name="LibraryResource" positionX="-65" positionY="107" width="128" height="163"/>
+        <element name="ListOfPresence" positionX="-164" positionY="-261" width="128" height="133"/>
+        <element name="Room" positionX="-396" positionY="29" width="128" height="178"/>
+        <element name="Specialty" positionX="-900" positionY="-18" width="128" height="148"/>
+        <element name="Student" positionX="-1431" positionY="-225" width="128" height="268"/>
+        <element name="Subject" positionX="-497" positionY="-264" width="128" height="163"/>
+        <element name="University" positionX="-1442" positionY="-432" width="128" height="133"/>
+        <element name="User" positionX="-1440" positionY="102" width="128" height="193"/>
+        <element name="YearOfStudies" positionX="-893" positionY="-351" width="128" height="193"/>
+    </elements>
+</model>

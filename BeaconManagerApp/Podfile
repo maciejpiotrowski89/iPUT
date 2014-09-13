@@ -1,0 +1,3 @@
+platform :ios, '7.0'
+xcodeproj 'BeaconManagerApp/BeaconManagerApp.xcodeproj'
+pod 'EstimoteSDK', '~> 1.3.0'

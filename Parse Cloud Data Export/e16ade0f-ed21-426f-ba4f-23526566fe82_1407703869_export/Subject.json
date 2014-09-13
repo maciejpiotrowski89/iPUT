@@ -1,0 +1,46 @@
+{ "results": [
+	{
+        "createdAt": "2014-07-29T19:01:27.408Z",
+        "lecturer": {
+            "__type": "Pointer",
+            "className": "Lecturer",
+            "objectId": "XTogxh7oaA"
+        },
+        "name": "Aplikacje mobilne",
+        "objectId": "y8zdHe1FpP",
+        "updatedAt": "2014-07-29T19:01:27.408Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:40.318Z",
+        "lecturer": {
+            "__type": "Pointer",
+            "className": "Lecturer",
+            "objectId": "0t7iVUykJy"
+        },
+        "name": "Teoria obwodów",
+        "objectId": "6NKKm2K0Ed",
+        "updatedAt": "2014-07-29T19:01:40.318Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:46.535Z",
+        "lecturer": {
+            "__type": "Pointer",
+            "className": "Lecturer",
+            "objectId": "l3iFQPj5Tr"
+        },
+        "name": "Multimedia",
+        "objectId": "8TPIB7wRno",
+        "updatedAt": "2014-07-29T19:01:46.535Z"
+    },
+	{
+        "createdAt": "2014-07-29T19:01:53.975Z",
+        "lecturer": {
+            "__type": "Pointer",
+            "className": "Lecturer",
+            "objectId": "Y2pN5zyinN"
+        },
+        "name": "Informatyka",
+        "objectId": "mvWuIz3ITN",
+        "updatedAt": "2014-07-29T19:01:53.975Z"
+    }
+] }

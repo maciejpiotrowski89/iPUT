@@ -1,0 +1,34 @@
+{ "results": [
+	{
+        "address": "\nKampus Piotrowo",
+        "createdAt": "2014-07-29T21:35:58.060Z",
+        "major": 2,
+        "name": "Centrum Wykładowe",
+        "objectId": "7IkO1VoJRC",
+        "updatedAt": "2014-07-29T21:35:58.060Z"
+    },
+	{
+        "address": "\nPiotrowo 3A,\n60-965 Poznań",
+        "createdAt": "2014-07-29T21:36:00.080Z",
+        "major": 1,
+        "name": "Wydział Elektroniki i Telekomunikacji",
+        "objectId": "g15HPdKKKh",
+        "updatedAt": "2014-08-09T20:58:53.420Z"
+    },
+	{
+        "address": "1 Infinite Loop",
+        "createdAt": "2014-08-10T19:44:21.877Z",
+        "major": 14,
+        "name": "iPUT office",
+        "objectId": "shMXXngLvR",
+        "updatedAt": "2014-08-10T20:44:53.894Z"
+    },
+	{
+        "address": "Piotrowo 3A",
+        "createdAt": "2014-08-10T19:45:08.964Z",
+        "major": 11,
+        "name": "Elektryk",
+        "objectId": "8c05LwRiji",
+        "updatedAt": "2014-08-10T19:45:08.964Z"
+    }
+] }
