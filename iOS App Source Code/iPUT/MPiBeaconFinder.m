@@ -8,7 +8,7 @@
 
 #import "MPiBeaconFinder.h"
 
-NSTimeInterval const kiBeaconDiscoveryTime = 10.0; //stabilization after 10s (if iOS device transmits as iBeacon)
+NSTimeInterval const kiBeaconDiscoveryTime = 15.0; //stabilization after 10s (if iOS device transmits as iBeacon)
 
 @implementation MPiBeaconFinder
 
@@ -106,7 +106,14 @@ NSTimeInterval const kiBeaconDiscoveryTime = 10.0; //stabilization after 10s (if
       didRangeBeacons:(NSArray *)beacons
              inRegion:(ESTBeaconRegion *)region {
     if (nil != beacons && beacons.count > 0) {
-        [self.beaconsDiscoveredByManagers setObject:beacons forKey:[manager description]];
+        NSArray *newBeacons = beacons;
+        NSMutableArray *oldBeacons = [[NSMutableArray alloc]initWithArray:[self.beaconsDiscoveredByManagers objectForKey:[manager description]]];
+        for (ESTBeacon *newBeacon in newBeacons) {
+            if (![oldBeacons containsObject:newBeacon]) {
+                [oldBeacons addObject:newBeacon];
+            }
+        }
+        [self.beaconsDiscoveredByManagers setObject:oldBeacons forKey:[manager description]];
     }
 }
 

@@ -124,6 +124,7 @@
 		51FF21DE1909A88200D15326 /* MPFlipSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FF21DD1909A88200D15326 /* MPFlipSegue.m */; };
 		51FF21E61909B8FA00D15326 /* MPBeaconProfileListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FF21E51909B8FA00D15326 /* MPBeaconProfileListViewController.m */; };
 		51FF21ED190A8B7800D15326 /* MaciejPiotrowski.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51FF21EC190A8B7800D15326 /* MaciejPiotrowski.jpg */; };
+		69223A2419C4C8FA0018B8AC /* ESTBeacon+Comparison.m in Sources */ = {isa = PBXBuildFile; fileRef = 69223A2319C4C8FA0018B8AC /* ESTBeacon+Comparison.m */; };
 		CBA8A146354947B6A4B01100 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6E59E0EE80454AA85DF161 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -349,6 +350,8 @@
 		51FF21E41909B8FA00D15326 /* MPBeaconProfileListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPBeaconProfileListViewController.h; sourceTree = "<group>"; };
 		51FF21E51909B8FA00D15326 /* MPBeaconProfileListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPBeaconProfileListViewController.m; sourceTree = "<group>"; };
 		51FF21EC190A8B7800D15326 /* MaciejPiotrowski.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MaciejPiotrowski.jpg; sourceTree = "<group>"; };
+		69223A2219C4C8FA0018B8AC /* ESTBeacon+Comparison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ESTBeacon+Comparison.h"; sourceTree = "<group>"; };
+		69223A2319C4C8FA0018B8AC /* ESTBeacon+Comparison.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ESTBeacon+Comparison.m"; sourceTree = "<group>"; };
 		BA8E4D60EB0A4E199AB30935 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		EA6E59E0EE80454AA85DF161 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -488,6 +491,8 @@
 				51FF21D419096F8B00D15326 /* MPStudentFinder.m */,
 				51FF21D0190968A900D15326 /* MPStudentBeaconFinder.h */,
 				51FF21D1190968A900D15326 /* MPStudentBeaconFinder.m */,
+				69223A2219C4C8FA0018B8AC /* ESTBeacon+Comparison.h */,
+				69223A2319C4C8FA0018B8AC /* ESTBeacon+Comparison.m */,
 			);
 			name = Objects;
 			sourceTree = "<group>";
@@ -989,6 +994,7 @@
 				51BFF8081908319800A95DB4 /* MPStudentTimetableViewController.m in Sources */,
 				51BFF7C719070BF100A95DB4 /* BeaconUUID+Description.m in Sources */,
 				517BE57D190D784500AC53A1 /* Lecturer.m in Sources */,
+				69223A2419C4C8FA0018B8AC /* ESTBeacon+Comparison.m in Sources */,
 				51BFF7E619070CBD00A95DB4 /* LibraryResource+Description.m in Sources */,
 				517BE58C190D79EF00AC53A1 /* Room.m in Sources */,
 				517BE595190D7D2100AC53A1 /* Building.m in Sources */,

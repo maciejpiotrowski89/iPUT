@@ -306,8 +306,8 @@
 
 + (NSArray *)listOfAllStudentsForPresenceList:(ListOfPresence *)list {
     NSArray *students = [list.date.subject.group.students allObjects];
-    NSSortDescriptor *descriptorLastName = [NSSortDescriptor sortDescriptorWithKey:@"lastName" ascending:YES];
-    NSSortDescriptor *descriptorFirstName = [NSSortDescriptor sortDescriptorWithKey:@"firstName" ascending:YES];
+    NSSortDescriptor *descriptorLastName = [NSSortDescriptor sortDescriptorWithKey:@"lastName" ascending:YES selector:@selector(localizedStandardCompare:)];
+    NSSortDescriptor *descriptorFirstName = [NSSortDescriptor sortDescriptorWithKey:@"firstName" ascending:YES selector:@selector(localizedStandardCompare:)];
     
     return [students sortedArrayUsingDescriptors:@[descriptorLastName, descriptorFirstName]];
 }
