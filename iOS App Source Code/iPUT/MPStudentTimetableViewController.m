@@ -54,17 +54,17 @@ NSString *const kAdvertiseBadgeSegue = @"advertiseBadgeSegue";
 }
 
 - (BOOL)tableView:(UITableView *)tableView shouldHighlightRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (MPDateTermPresent == [[self.dateTerms objectAtIndex:indexPath.row] unsignedIntegerValue]) {
+//    if (MPDateTermPresent == [[self.dateTerms objectAtIndex:indexPath.row] unsignedIntegerValue]) {
         return YES;
-    }
-    return NO;
+//    }
+//    return NO;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    if (MPDateTermPresent == [[self.dateTerms objectAtIndex:indexPath.row] unsignedIntegerValue]) {
+//    if (MPDateTermPresent == [[self.dateTerms objectAtIndex:indexPath.row] unsignedIntegerValue]) {
         [self performSegueWithIdentifier:kAdvertiseBadgeSegue sender:self];
-    }
+//    }
 }
 
 @end
