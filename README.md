@@ -1,3 +1,5 @@
+[![codebeat badge](https://codebeat.co/badges/ec4804a9-715b-42b0-a378-fda634259686)](https://codebeat.co/projects/github-com-paciej00-iput)
+
 # iPUT
 My Master thesis project "The Usage of iBeacon technology for context-based iOS applications"
 
@@ -8,3 +10,5 @@ The main objective of the thesis was the development and implementation of the d
 Bluetooth Low Energy (BLE) is a wireless transmission standard with low power consump- tion. It is also used in Bluetooth Low Energy Beacon - conception of a device that transmits identification information that can be used by application layer to determine physical region that beacon is located in. Amongst Bluetooth Beacons the group of iBeacon peripherals can be distinguished. The iBeacon is an Apple Inc. trademark and standard definition for BLE proxim- ity beacons. The standard defines what payload is included in Protocol Data Unit (PDU) and how this data is transmitted over the air. The iBeacon devices are BLE broadcasters that con- tinuously transmit wireless signal which contains numerical identifiers. Receivers which sense iBeacon advertising packets can act on them depending on the set of numbers received.
 
 Software created for the purpose of the thesis is a prototype of mobile platform for Faculty of Electronics and Telecommunications. It consists of mobile applicaiton and cloud storage on Parse platform. The application senses iBeacon signals representing context for functionality. In particular two cases are analyzed: A) Lecturers are provided with electronic list of presence, which is automatically filled in based on iBeacons sensed by the device; B) Students have location-restricted access to the electronic content in the library. The author described concep- tion, functionalities and implementation of selected components of created application. The thesis contains also ideas for program development.
+
+Project was created in 2014.
